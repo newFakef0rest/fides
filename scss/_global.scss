@@ -1,0 +1,43 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+html {
+    scroll-behavior: smooth;
+}
+body {
+    font-family: $main-font;
+    overflow-x:  hidden;
+    min-width: 320px;
+}
+li {
+    list-style: none;
+}
+a {
+    text-decoration: none;
+}
+.container {
+    max-width: 1430px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+.row {
+    display: flex;
+    margin: 0 -15px;
+    flex-wrap: wrap;
+}
+.flex {
+    display: flex;
+}
+.ai-c {
+    align-items: center;
+}
+button {
+    cursor: pointer;
+    border: 1px solid transparent;
+    outline: none;
+}
+.overflow-hidden {
+    overflow-y: hidden;
+}
